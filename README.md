@@ -1,10 +1,5 @@
 # iGEM Stockholm Webpage
 
-## Table of Contents
-- [About](#about)
-- [How to Use](#how-to-use)
-- [Contact Information](#contact-information)
-
 ## About
 
 This webpage is for each current iGEM Stockholm to use. 
