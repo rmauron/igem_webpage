@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+/*if you want to use other fonts, google has an extended free collection. first import it here, then specify it for the class of choice*/
 
 html {
   scroll-behavior: smooth;
@@ -26,41 +27,6 @@ body {
   max-width: 400px;
 }
 
-/* style table*/
-thead { display: table-header-group; }
-tfoot { display: table-row-group; }
-tr { page-break-inside: avoid; }
-
-tr:after {
-  background: #B2DFDB !important;
-}
-tr:hover {
-  background: #B2DFDB !important;
-}
-
-.tr_title:after {
-  background: none !important;
-}
-.tr_title:hover {
-  background: none !important;
-
-}
-td a {
- display: block;
-}
-
-.dropdown-item:visited {
-  background: white !important;
-}
-
-.dropdown-item:focus {
-  background: none !important;
-}
-
-.dropdown-item:hover {
-  background: #B2DFDB !important;
-}
-/*end style table*/
 
 
 .img-fluid {
@@ -95,7 +61,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /*background-color: #333;*/
 }
 
 .sticky-top {
@@ -114,18 +79,16 @@ ul {
   font-weight: 600;
 }
 
-
-
 div.sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
-      
+
 li {
   float: left;
 }
-      
+
 li a {
   display: block;
   color: #2A95B1;
@@ -133,7 +96,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-      
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   font-size: 18px;
@@ -253,6 +216,7 @@ nav li a:hover {
 }
 
 
+/*Here is the modification applied for smaller screens. Those are only margins, font sizes, etc. You probably don't need to change it*/
 @media screen and (max-width: 1000px) {
 
   .header {
@@ -301,7 +265,6 @@ nav li a:hover {
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
-    /*padding-top: 1% !important;*/
     padding-bottom: 3%;
     text-align: justify;
     position: relative;
